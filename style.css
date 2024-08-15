@@ -1,0 +1,126 @@
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.frist img {
+  height: 17px;
+  width: 129px;
+  padding-top: 5px;
+}
+
+.containerr {
+  height: 67px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.074);
+  position: fixed;
+  z-index: 5;
+}
+
+.frist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second {
+  padding: 3px 0px 0px 3rem;
+}
+
+.second ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 35px 0px 0px;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.second ul {
+  margin-left: auto;
+}
+
+.my-link {
+  color: #666;
+}
+
+.my-link:hover {
+  color: rgb(7, 119, 238);
+}
+
+.fa-solid,
+.fas {
+  font-size: larger;
+  color: black;
+}
+
+.second li {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.second a {
+  text-decoration: none;
+}
+
+.frist {
+  padding: 20px 0px 0px 25rem;
+}
+
+.maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.bigimage img {
+  width: 100%;
+  height: 443px;
+  max-width: 1052px;
+  margin-top: 170px;
+}
+
+.btext {
+  position: absolute;
+  top: 42rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  word-spacing: 0.2em;
+  color: #414141;
+}
+
+.btext,
+p {
+  line-height: 3.5rem;
+  font-size: 20px;
+  word-spacing: 0.2em;
+  font-weight: 400;
+  color: #414141;
+}
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #ffffff;
+  background-color: #387ed1;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px 10px 30px;
+  width: 175px;
+  height: 45px;
+  margin-top: 22px;
+}
